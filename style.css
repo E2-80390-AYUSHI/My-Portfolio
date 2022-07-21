@@ -1,0 +1,223 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  p {
+    color:black;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding: 7% 15%;
+  background-color: black;
+  }
+  .container-fluid a{
+    color: #FF9F29;
+  }
+  .container-fluid a:hover{
+    color: #FF9F29;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    background-color: #0101019e;
+    color: rgb(219, 228, 240);
+    padding: 20px;
+   
+  }
+  .education{
+    padding: 240px;
+    margin: 2px;
+  }
+  
+  .white-section {
+    background-color:white;
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+  /* Buttons */
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title Section */
+  
+  #title {
+    background-color: #000000;
+    color: #FAF3E3;
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  /* Title Image */
+  
+  .title-image {
+    width: 60%;
+    
+    position: absolute;
+    right: 30%;
+  }
+  
+  /* Features Section */
+  
+  #features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+  }
+  
+  .icon {
+    color:  #0a0e44;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color:#6d67b4;
+  }
+  
+  /* Testimonial Section */
+  
+  #testimonials {
+    background-color: #0a0e44;
+  }
+  
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  
+  #press {
+    background-color: #15151568;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+ #pricing{
+  background-color: white;
+  color: black;
+  padding: 80px 0;
+ }
+ .row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ }
+ .about-col-1{
+  flex-basis: 35%;
+ }
+ .about-col-1 img{
+  width: 100%;
+  border-radius: 15px;
+ }
+ .about-col-2{
+  flex-basis: 60%;
+ }
+ .subtitle{
+  font-size: 60px;
+  font-weight: 600;
+  color: black;
+ }
+ .tab-titles{
+  display: flex;
+  margin: 20px 0 40px;
+ }
+ 
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+    
+    }
+  }
+  .card-body{
+    background-color: #0a0e44;
+    color: white;
+  }
+  .btn{
+    background-color: grey;
+    color: white;
+  }
+  .copyright{
+    color: #FAF3E3;
+  }
+  #cta{
+    background-color: #000000;
+  }
+  .about-img{
+    width: 60%;
+    height: 550px;
+  }
+  table tr th col{
+    font-size: 30px;
+    line-height: 72px;
+  }
+  
